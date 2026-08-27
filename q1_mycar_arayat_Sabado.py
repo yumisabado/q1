@@ -14,16 +14,16 @@ class Car:
         print("You have charged",wH,"wH")
         print("Your",self.brand,self.model,"has",self.battery,"wH left")
 
-brand = input("What is the brand of your car?")
-model = input("What is the model of your car?")
+brand = input("What is the brand of your car? ")
+model = input("What is the model of your car? ")
 myCar = Car(brand,model)
 while myCar.battery > 0:
-    command = input("What do you want to do? (go,charge)")
+    command = input("What do you want to do? (go,charge) ")
     if command == "go":
-        distance = int(input("How far?"))
+        distance = int(input("How far? "))
         myCar.go(distance)
     elif command == "charge":
-        wH = int(input("How much?"))
+        wH = int(input("How much? "))
         myCar.charge(wH)
     else:
         print("Invalid command")
