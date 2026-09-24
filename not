@@ -1,0 +1,61 @@
+class Account:
+    def __init__(self, name, number, __balance):
+        self.name = name
+        self.number = number
+        self.__balance = balance
+
+    def getBalance(self):
+        self.
+
+    def deposit(self, amount):
+
+    def withdraw(self, amount):
+'''
+    def __init__(self, name, number):
+'''
+    def __str__(): 
+
+class Bank:
+    def __init__(self, name, __accounts):
+        self.name = name
+        self.__accounts = account
+
+    def showAccounts():
+
+    def openAccount():
+
+    def closeAccount():
+
+    def deposit():
+
+    def addInterest():
+
+    def __init__(name)
+
+    def __del__():
+
+class SavingsAccount(Account):
+    def __init__(self, __interest):
+        self.__interest = 
+
+
+
+print("Welcome to 
+
+name = input("Account name: ")
+number = int.input("Account number: ")
+
+account = 
+
+while
+    command = input("What would you like to do? (
+
+account_type = 
+
+
+
+print("You are about to deposit an amount of P ",amount)
+number = input("Enter account number :")
+
+print("Deposit successful")
+print(name,
