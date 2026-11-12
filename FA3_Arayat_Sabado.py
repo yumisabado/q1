@@ -17,7 +17,6 @@ class TempSensor(Sensor):
     def __str__(self):
         return "24.5°C"
 
-mySensor = Sensor()
 pHSensor = PHSensor()
 tempSensor = TempSensor()
 
